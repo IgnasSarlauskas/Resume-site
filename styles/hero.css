@@ -70,12 +70,11 @@
         padding: 0px;
         box-sizing: border-box;
         color: white;
-        background: url("../img/CV-small-screen.jpg");
-        background-position: center;
+        background: url("../img/CV.jpg");
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        position: relative;
     }
 
     .hero-button {
