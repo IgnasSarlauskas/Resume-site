@@ -8,7 +8,7 @@
 }
 
 .hero-text {
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -52,5 +52,6 @@
 
   .hero-text button {
     font-size: 16px;
+    margin-bottom: 40px;
   }
 }
