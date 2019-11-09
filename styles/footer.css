@@ -1,0 +1,37 @@
+#footer {
+  margin-top: 120px;
+}
+.contact-info {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-github-square,
+.fa-linkedin,
+.fa-facebook {
+  color: black;
+  font-size: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fa-github-square:hover,
+.fa-linkedin:hover,
+.fa-facebook:hover {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .fa-github-square,
+  .fa-linkedin,
+  .fa-facebook {
+    font-size: 22px;
+  }
+
+  #footer {
+    font-size: 12px;
+  }
+}

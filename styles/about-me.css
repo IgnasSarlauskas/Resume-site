@@ -1,0 +1,22 @@
+#about-me,
+#skills {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.about-content,
+.skills-content {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+
+  #about-me,
+  #skills {
+    max-width: 80%;
+    font-size: 11px;
+  }
+}
