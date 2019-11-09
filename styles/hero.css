@@ -62,10 +62,13 @@
         font-size: 26px;
     }
 
-    .hero {
+     .hero {
         width: 100%;
         height: 100%;
-    }
+        margin: auto;
+        /* for mobile screen ?? maybe*/
+        padding: 0;
+    } 
 
     .hero-button {
         font-size: 16px;
