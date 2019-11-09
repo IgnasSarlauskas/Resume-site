@@ -1,4 +1,5 @@
-#education, #work-experience {
+#education,
+#work-experience {
     margin-top: 50px;
     padding-top: 50px;
 }
@@ -76,11 +77,11 @@
 .flip-box-front {
     background-color: transparent;
     color: white;
+    transform: rotateX(0deg); /*fixed the issue on firefox */
 }
 
 .flip-box-back {
     background-color: transparent;
-    ;
     color: white;
     transform: rotateY(180deg);
 }
