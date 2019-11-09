@@ -63,9 +63,7 @@
     }
 
      .hero {
-        width: 100%;
-        height: 100%;
-        margin: auto;
+        background-image: url("../img/CV-small-device.jpg");
         /* for mobile screen ?? maybe*/
         padding: 0;
     } 
