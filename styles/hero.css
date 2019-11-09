@@ -47,10 +47,6 @@
     font-size: 24px;
 }
 
-.contact {
-    background-color: #80D5DD;
-}
-
 .hero-button:hover {
     color: black;
     background-color: white;
@@ -74,6 +70,11 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        
         background-attachment: fixed;
     }
 
