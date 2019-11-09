@@ -76,11 +76,13 @@
 
 .flip-box-front {
     background-color: transparent;
+    -webkit-backface-visibility: hidden;
     color: white;
     transform: rotateX(0deg); /*fixed the issue on firefox */
 }
 
 .flip-box-back {
+    -webkit-backface-visibility: hidden;
     background-color: transparent;
     color: white;
     transform: rotateY(180deg);
