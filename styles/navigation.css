@@ -90,8 +90,7 @@
 
 .topnav a:hover,
 .dropdown:hover .dropbtn {
-    background-color: white;
-    color: black;
+    color: white;
 }
 
 .dropdown-content a:hover {
