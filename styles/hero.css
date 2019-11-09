@@ -17,8 +17,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin: auto;
-    /* for mobile screen ?? maybe*/
+
 }
 
 .hero-title {
@@ -62,11 +61,20 @@
         font-size: 26px;
     }
 
-     .hero {
-        background-image: url("../img/CV-small-device.jpg");
-        /* for mobile screen ?? maybe*/
-        padding: 0;
-    } 
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        padding: 40px;
+        box-sizing: border-box;
+        color: white;
+        background: url("../img/CV-small-screen.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
     .hero-button {
         font-size: 16px;
