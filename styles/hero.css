@@ -18,6 +18,8 @@
     background-size: cover;
     background-attachment: fixed;
 
+    min-height: 100%;
+
 }
 
 .hero-title {
@@ -66,7 +68,7 @@
         padding: 0px;
         box-sizing: border-box;
         color: white;
-        background: url("../img/CV.jpg");
+        background-image: url("../img/CV.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
