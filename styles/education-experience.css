@@ -47,6 +47,7 @@
     perspective: 1000px;
     cursor: pointer;
     margin: 0 auto;
+    -webkit-transform-style: preserve-3d;
 }
 
 .flip-box-inner:hover .flip-box-front,
@@ -63,6 +64,7 @@
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
 }
 
 .flip-box-inner .flip-box-back {
@@ -70,6 +72,7 @@
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
 }
 
 .flip-box-inner .flip-box-front,
@@ -85,6 +88,7 @@
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
     display: flex;
     justify-content: center;
     align-content: center;
