@@ -112,9 +112,9 @@
         margin: 20px;
     }
 
-    .flip-box:active .flip-box-inner {
+    .flip-box:active .flip-box-inner, .flip-box:focus .flip-box-inner  {
         transform: rotateY(180deg);
-    }
+    }    
 
     .experience-container {
         margin: 20px;
