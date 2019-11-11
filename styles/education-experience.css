@@ -45,6 +45,9 @@
     width: 500px;
     height: 200px;
     perspective: 1000px;
+    -webkit-perspective: 1000px;
+    -o-perspective: 1000px;
+    -moz-perspective: 1000px;
     cursor: pointer;
     margin: 0 auto;
     -webkit-transform-style: preserve-3d;
