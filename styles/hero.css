@@ -23,11 +23,11 @@
   margin-bottom: 250px;
 }
 
-.hero-text .button-container {
+.hero-text .a-container {
   margin-bottom: 40px;
 }
 
-.hero-text button {
+.hero-text a {
   width: 60%;
   padding: 0.5em 0.67em;
   color: white;
@@ -38,7 +38,7 @@
   font-size: 24px;
 }
 
-.hero-text button:hover {
+.hero-text a:hover {
   color: black;
   background-color: white;
 }
@@ -58,7 +58,7 @@
     margin-bottom: 450px;
   }
 
-  .hero-text button {
+  .hero-text a {
     font-size: 26px;
     margin-bottom: 40px;
     width: 70%;
@@ -81,7 +81,7 @@
     margin-bottom: 200px;
   }
 
-  .hero-text button {
+  .hero-text a {
     font-size: 18px;
     margin-bottom: 40px;
   }
