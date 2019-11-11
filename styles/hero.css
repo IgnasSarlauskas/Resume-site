@@ -46,6 +46,10 @@
     left: 40%;
   }
 
+  .hero-image {
+    background-attachment: scroll;
+  }
+
   .hero-text h1 {
     font-size: 22px;
     margin-bottom: 200px;
