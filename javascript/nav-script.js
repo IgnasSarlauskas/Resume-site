@@ -1,3 +1,5 @@
+"use strict";
+
 let toggleBtn = document.querySelector(".toggle-icon");
 toggleBtn.addEventListener("click", function () {
   let x = document.getElementById("myTopnav");

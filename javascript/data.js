@@ -1,3 +1,5 @@
+"use strict";
+
 const educationData = [
     {
         schoolName: "Code Academy Coding School, Lithuania",
