@@ -4,10 +4,6 @@
     padding-top: 50px;
 }
 
-/* #work-experience {
-    margin-top: 150px;
-} */
-
 .education-img {
     position: absolute;
     height: 670px;
@@ -40,54 +36,47 @@
     background-color: transparent;
     width: 500px;
     height: 200px;
-    /* border: 1px solid #f1f1f1; */
-    perspective: 1000px;
     margin-top: 50px;
     cursor: pointer;
 }
 
 .flip-box-inner {
     position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+    width: 500px;
+    height: 200px;
+    perspective: 1000px;
+    cursor: pointer;
+    margin: 0 auto;
 }
 
-.flip-box:hover .flip-box-inner {
+.flip-box-inner:hover .flip-box-front,
+.flip-box-inner.flip .flip-box-front .flip-box-inner:focus .flip-box-front {
     transform: rotateY(180deg);
 }
 
+.flip-box-inner:hover .flip-box-back,
+.flip-box-inner.flip .flip-box-back .flip-box-inner:focus .flip-box-back {
+    transform: rotateY(0deg);
+}
 
-.flip-box-front,
-.flip-box-back {
+.flip-box-inner .flip-box-back {
+    transform: rotateY(-180deg);
+}
+
+.flip-box-inner .flip-box-front,
+.flip-box-inner .flip-box-back {
     position: absolute;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
+    transition: all 0.8s ease-in;
+    color: white;
+    background-color: transparent;
     backface-visibility: hidden;
-    /* 4 lines that center the text in the flip boxes */
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-}
-
-.flip-box-front {
-    background-color: transparent;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    color: white;
-    transform: rotateX(0deg);
-    /* fixed the issue on firefox */
-}
-
-.flip-box-back {
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    background-color: transparent;
-    color: white;
-    transform: rotateY(180deg);
 }
 
 /* Education cards filp effect styles end */
@@ -102,6 +91,7 @@
     text-align: justify;
     max-width: 70%;
     margin-top: 60px;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -110,9 +100,10 @@
         margin: 20px;
     }
 
-    .flip-box:active .flip-box-inner, .flip-box:focus .flip-box-inner  {
+    .flip-box:active .flip-box-inner,
+    .flip-box:focus .flip-box-inner {
         transform: rotateY(180deg);
-    }    
+    }
 
     .experience-container {
         margin: 20px;
@@ -127,8 +118,8 @@
         font-size: 12px;
         display: block;
         margin: 0 auto;
-
-        
+        margin-top: 25px;
+        padding-top: 25px;
     }
 
     .card-education {
@@ -136,11 +127,16 @@
     }
 
     .card-experience {
-        max-width: 80%;
+        max-width: 85%;
+    }
+
+    .flip-box-inner {
+        width: 250px;
+        height: 100px;
+        margin: 0 auto;
     }
 
     .flip-box {
-        width: 300px;
-        height: 100px;
+        height: auto;
     }
 }
