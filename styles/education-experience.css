@@ -30,7 +30,6 @@
     text-align: justify;
     max-width: 35%;
     height: 350px;
-    padding: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -102,7 +101,6 @@
     margin: 0 auto;
     text-align: justify;
     max-width: 70%;
-    padding: 10px;
     margin-top: 60px;
 }
 
@@ -126,13 +124,19 @@
 
     #education,
     #work-experience {
-        font-size: 11px;
+        font-size: 12px;
         display: block;
         margin: 0 auto;
+
+        
     }
 
     .card-education {
         max-width: 85%;
+    }
+
+    .card-experience {
+        max-width: 80%;
     }
 
     .flip-box {
