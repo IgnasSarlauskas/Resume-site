@@ -52,15 +52,24 @@
 .flip-box-inner:hover .flip-box-front,
 .flip-box-inner.flip .flip-box-front .flip-box-inner:focus .flip-box-front {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
 }
 
 .flip-box-inner:hover .flip-box-back,
 .flip-box-inner.flip .flip-box-back .flip-box-inner:focus .flip-box-back {
     transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
 }
 
 .flip-box-inner .flip-box-back {
     transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
 }
 
 .flip-box-inner .flip-box-front,
@@ -73,6 +82,9 @@
     color: white;
     background-color: transparent;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -103,6 +115,9 @@
     .flip-box:active .flip-box-inner,
     .flip-box:focus .flip-box-inner {
         transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
     }
 
     .experience-container {
