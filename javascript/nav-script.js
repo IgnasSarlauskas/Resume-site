@@ -12,7 +12,7 @@ toggleBtn.addEventListener("click", function () {
 
 let links = document.getElementsByClassName("link");
 // console.log(links);
-for (i = 0; i < links.length; i++) {
+for (let i = 0; i < links.length; i++) {
   links[i].addEventListener("click", function () {
     let x = document.getElementById("myTopnav");
     if (x.className === "topnav responsive") {

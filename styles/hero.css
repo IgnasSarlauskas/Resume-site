@@ -48,6 +48,7 @@
 
   .hero-image {
     background-attachment: scroll;
+    height: 100%;
   }
 
   .hero-text h1 {
