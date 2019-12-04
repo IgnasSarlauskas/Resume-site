@@ -2,7 +2,7 @@
 
 const educationData = [
     {
-        schoolName: "Code Academy Coding School, Lithuania",
+        schoolName: "CodeAcademy, Lithuania",
         period: 2019,
         courseName: "6 month course of Full-Stack website development technologies",
         description: "Html5, Css, Bootstrap, JavaScript, php",
