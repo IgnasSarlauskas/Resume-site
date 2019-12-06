@@ -62,7 +62,7 @@ const aboutMeData = [
 
 const skillsData = [
     {
-        skillOne: "Good understanding of HTML5, CSS and bootstrap",
+        skillOne: "Good understanding of HTML5, CSS3 and bootstrap",
         skillTwo: "Vanilla JavaScript. Also a grasp of Vue.js framework",
         skillThree: "Understanding of procedural and OOP php.",
         skillFour: "Creating and administrating databases with SQL",
