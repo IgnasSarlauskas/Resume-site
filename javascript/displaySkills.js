@@ -37,7 +37,6 @@ function displaySkills(skills) {
     '<p>' + skills.skillFour + '</p>' +
     '<p>' + skills.skillFive + '</p>' +
     '<p>' + skills.skillSix + '</p>' +
-    '<p>' + skills.skillSeven + '</p>' +
     '<p>' + skills.skillEight + '</p>';
 
   skillsContainer.appendChild(div);
