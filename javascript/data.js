@@ -63,12 +63,11 @@ const aboutMeData = [
 const skillsData = [
     {
         skillOne: "Good understanding of HTML5, CSS and bootstrap",
-        skillTwo: "Understanding of JS core. Also a grasp of Vue.js framework",
+        skillTwo: "Vanilla JavaScript. Also a grasp of Vue.js framework",
         skillThree: "Understanding of procedural and OOP php.",
-        skillFour: "Basics of accessing and manipulating databases with SQL",
-        skillFive: "Knowledge of wordpress CMS",
+        skillFour: "Creating and administrating databases with SQL",
+        skillFive: "Wordpress CMS",
         skillSix: "Knowledge of Git version control principles",
-        skillSeven: "Have a good common sence when and how to ask coding related questions while not wasting others time!",
         skillEight: "The link of my github repository is at the footer of the page.I have pushed this resume site and fiew other projects there, maybe you would like to check them!",
     },
 ]
