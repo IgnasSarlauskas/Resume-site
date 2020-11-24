@@ -35,9 +35,9 @@ const workExperienceData = [
         period: "2019 March / Now",
         workPlaceName: "Western Union",
         jobTitle: "Technical support technician",
-        jobDescription: "•	Monitoring the majority of Corporation’s IT infrastructure, making sure that all applications is working properly.",
-        responsibility1: "•	Analyzing various different alerts, making fast decisions whether it might be a major IT incident or not.",
-        responsibility2: "•	In case of serious incidents, opening a bridge call with application teams to solve issues as soon as possible avoiding bad customer experience and transactional loss.",
+        jobDescription: "Monitoring the majority of Corporation’s IT infrastructure, making sure that all applications is working properly.",
+        responsibility1: "Analyzing various different alerts, making fast decisions whether it might be a major IT incident or not.",
+        responsibility2: "In case of serious incidents, opening a bridge call with application teams to solve issues as soon as possible avoiding bad customer experience and transactional loss.",
         responsibility3: "Colaboration with multiple application teams of the organization.",
     },
     
